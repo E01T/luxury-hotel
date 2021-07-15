@@ -295,6 +295,7 @@ h6 {
     max-width: 1170px;
   }
 }
+
 /* end pf featured rooms */
 /* room */
 .room {
@@ -314,6 +315,14 @@ h6 {
   display: block;
   transition: var(--mainTransition);
 }
+
+/* fixes the last featured image issue of being shorter */
+@media screen and (min-width: 1124px) {
+  .img-container img {
+    min-height: 250px;
+  }
+}
+
 .price-top {
   position: absolute;
   top: 0;
