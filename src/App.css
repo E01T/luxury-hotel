@@ -318,7 +318,7 @@ h6 {
 
 /* fixes the last featured image issue of being shorter */
 @media screen and (min-width: 1124px) {
-  .img-container img {
+  .featured-rooms-center .img-container img {
     min-height: 250px;
   }
 }
